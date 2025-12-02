@@ -1,87 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attendance Management System</title>
+# Attendance Management System
 
-    <style>
-        /* General Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', sans-serif;
-        }
+A simple web-based **Attendance Management System** project developed by Project Group 5.  
+This system allows users to log in and manage attendance efficiently.
 
-        body {
-            background: linear-gradient(135deg, #007bff, #00c6ff);
-            color: #fff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            text-align: center;
-            position: relative;
-        }
+## 📌 Features
 
-        h1 {
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
+- User-friendly interface with login page
+- Dashboard for managing attendance (students/employees)
+- Responsive design compatible with desktop and mobile
+- Easy to extend with additional features
 
-        p {
-            font-size: 18px;
-            margin-bottom: 30px;
-            max-width: 500px;
-        }
+## 💻 Technologies Used
 
-        .buttons {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
+- **HTML5** – Structure of web pages  
+- **CSS3** – Styling and layout  
+- **PHP** – Server-side scripting (for login, sessions)  
+- **MySQL** – Database to store user and attendance data  
 
-        a.button {
-            background-color: #fff;
-            color: #007bff;
-            padding: 12px 24px;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-            transition: all 0.3s ease;
-        }
+> ⚠ Note: GitHub Pages supports only static websites.  
+> To run PHP & MySQL features, use a local server like **XAMPP** or **000WebHost**.
 
-        a.button:hover {
-            background-color: #f0f0f0;
-            transform: scale(1.05);
-        }
+## 📁 Project Structure
 
-        /* Footer */
-        footer {
-            position: absolute;
-            bottom: 15px;
-            text-align: center;
-            font-size: 14px;
-            color: #f0f0f0;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-
-    <h1>Attendance Management System</h1>
-    <p>Welcome! Please log in to manage attendance.</p>
-
-    <div class="buttons">
-        <a href="login.html" class="button">Login</a>
-    </div>
-
-    <footer>
-        © Project group 5
-    </footer>
-
-</body>
-</html>
